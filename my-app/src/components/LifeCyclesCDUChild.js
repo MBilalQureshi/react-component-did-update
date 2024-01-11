@@ -23,6 +23,7 @@ export class LifeCyclesCDUChild extends Component {
         console.log('Child Component updated!');
         console.log('prevProps', prevProps);
         console.log('prevState', prevState);
+        // below tells that parent greeting has changed
         if (prevProps.parentGreeting !== this.props.parentGreeting) {
             console.log('Parent greeting has changed!');
         }
